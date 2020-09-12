@@ -168,7 +168,6 @@
             this.Name = "MainForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Lights Out!";
-            this.ResizeEnd += new System.EventHandler(this.MainForm_ResizeEnd);
             this.Paint += new System.Windows.Forms.PaintEventHandler(this.MainForm_Paint);
             this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.MainForm_MouseDown);
             this.Resize += new System.EventHandler(this.MainForm_Resize_1);
